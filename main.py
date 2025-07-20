@@ -6,14 +6,14 @@ API_KEY= '8191505882:AAEanKawuSRlxHmt2PsCPaps-ED7FYchnAo'
 
 
 async def start_com(update,context):
-   await update.message.reply_text("enter any text to see the biggest in the world")
+   await update.message.reply_text("enter any text to see the biggest kahba in the world")
 
 async def sendthepic_com(update,context):
    with open("karimo.jpg", 'rb') as photo:
     await update.message.reply_photo(photo=photo)
 
 async def replytohim(update,context):
-  await update.message.reply_text("nta ")
+  await update.message.reply_text("hda wald kahba ")
   with open("karimo.jpg",'rb') as photo :
    await update.message.reply_photo(photo=photo)
 
